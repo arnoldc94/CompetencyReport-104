@@ -1,0 +1,221 @@
+
+
+
+.flex-container{
+    height:100vh;
+}
+.container{
+    margin:2rem;
+    
+}
+.main-header{
+    background-color:rgb(167, 207, 157);
+    color: black;
+}
+
+.nav{
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    width:100%;
+    
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: black;
+}
+.nav-item a:hover{
+    color:white;
+}
+.main-container{
+    height:80%;
+    margin-top:0;
+    background-image: url("index-pup.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    
+    
+    
+}
+
+.main-container h2{
+    text-align: center;
+    padding-top:1rem;
+    color: black;
+    
+}
+.main-container h3{
+    text-align:center;
+    color:black;
+    text-decoration: underline;
+}
+.main-container2{
+    width:40%;
+    height:70%;
+    padding:1rem;
+    color:white;
+    margin-bottom: 2rem;
+    margin-right:auto;
+    margin-left: auto;
+    
+}
+.hide{
+    display: none;
+}
+
+.hover:hover + .hide{
+    display:block;
+    color: white;
+    background-color:black;
+}
+/*utility*/
+.body-color{
+    background-color: rgb(0, 0, 0);
+}
+.secHeader{
+    background-color: rgb(167, 207, 157);
+    display: flex;
+    flex-direction: column;
+}
+.secHeader h1{
+    padding-left: 30%;
+    padding-right:30%;
+    width: 100%;
+    font-size: 3rem;
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*footer*/
+footer{
+   display: block;
+   
+}
+.site-footer{
+    background-color:black;
+    color:white;
+    text-align:center;
+    height: 2.5rem;
+ }
+/*about*/
+.about-container{
+    height:90vh;
+    background-color: rgb(0, 0, 0);
+    border:7px double rgb(255, 255, 255);
+}
+.otherH2{
+        margin-left:5rem;
+        margin-top:.5rem;
+}
+.div-container{
+    display: flex;
+    flex-direction: column;
+    height:70vh;
+    width:90%;
+    margin:.5rem auto .5rem auto;
+    background-color: rgb(167, 207, 157);
+    border-radius: 5rem;
+    align-content: center;
+    text-align: center;
+}
+.p-container{
+    width:80%;
+    margin: 2rem auto 2rem auto;
+   
+}
+.dog-sit{
+   margin:1rem;
+}
+.dog-sit img{
+    max-width: 10rem;
+    
+}
+/*service*/
+.service-container{
+    height:90vh;
+    background-color: rgb(0, 0, 0);
+    border:7px double rgb(255, 255, 255);
+}
+.serviceH2{
+    margin-left:5rem;
+    margin-top:.5rem;
+}
+.div2-container{
+    display: flex;
+    flex-direction: column;
+    height:75vh;
+    width:90%;
+    margin:1rem auto .5rem auto;
+    background-color: rgb(221, 218, 218);
+    border-radius: 5rem;
+    align-content: center;
+    text-align: center;
+}
+.div2-container div{
+    margin:0rem;
+    padding-top:.5rem;
+    border-top: .5px solid black;
+    font-size:1rem
+}
+
+ /*register*/  
+ .input-container{
+    display:flex;
+    padding: 1rem;
+}
+.input-container label{
+    flex-basis: 8rem;
+}
+.input-container input{
+    background: transparent;
+
+}
+.input-container select{
+    background: transparent;
+}
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width:100%;
+    margin-top: 1rem;
+}
+th, td{
+    border:1px solid white;
+    color:white;
+    background-color: rgb(202, 207, 206);
+    align-items: center;
+    text-align: center;
+}
+
+th{
+    font-weight: bold;
+    text-transform: uppercase;
+    color:rgb(175, 108, 108);
+}  
+ .hide2{
+    display:none;
+ }
+ .show{
+    display:table-row;
+ }
+  
+ h2{
+    color: white;
+}
+#info{
+    color: white;
+}
+.formImg{
+    background-image: url("dog.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1.5rem;
+    
+}
+#btn-register{
+    border-radius: 3rem;
+}
